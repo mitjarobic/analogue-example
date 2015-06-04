@@ -1,4 +1,4 @@
-touch ./storage/testing/sqlite
+touch ./storage/testing.sqlite
 
 php artisan migrate:refresh --database sqlite_testing
 
