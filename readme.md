@@ -1,5 +1,5 @@
 php artisan migrate:refresh --database sqlite_testing
 
-pu tests/AnalogueTest
+vendor/bin/phpunit tests/AnalogueTest
 
 
